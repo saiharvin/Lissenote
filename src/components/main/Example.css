@@ -1,0 +1,73 @@
+
+.exampleBody {
+  background-color: white;
+  width: 511px;
+  /* min-width: 300px; */
+  height: 550.13px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.titleimg {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 1px;
+  
+}
+.image {
+  float: left;
+  padding-right: 30px;
+  /* width: 30%;
+  height: auto; */
+}
+
+.textside {
+  padding-top: 5px;
+  font-size: 17px;
+  padding-right: 15px;
+}
+
+.textdown1 {
+  clear: left;
+  padding-top: 0.01%;
+  font-size: 17px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.textdown2 {
+  font-size: 17px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width:768px) {
+  .exampleBody {
+    width: 99%;
+    height: 550.13px;
+  }
+ 
+  .titleimg {
+    text-align: left;
+    padding-left: 27px;
+    padding-top: 1px;
+  }
+
+  .image {
+    float: left;
+    padding-right: 5%;
+    
+  }
+
+  .textside {
+    padding-top: 0px;
+    font-size: 97%;
+    padding-right: 4%;
+  }
+
+  .textdown1, .textdown2 {
+    font-size: 97%;
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+  
+}

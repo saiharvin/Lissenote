@@ -1,0 +1,105 @@
+.bod {
+  background-color: #4E8679;
+  font-family: 'Ubuntu', sans-serif;
+  /* display: flex; */
+}
+.head {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.completecompo1, .completecompo2, .completecompo3{
+  display: flex;
+}
+
+.completecompo2 {
+  flex-direction: row-reverse;
+}
+
+.example-compo1 {
+  clear: right;
+  padding-top: 30px;
+  /* display: flex; */
+  /* width: 130%; */
+  padding-left: 100px;
+  float: left;
+  padding-right: 7%;
+}
+
+.example-compo2 {
+  clear: left;
+  /* padding-top: 100px; */
+  /* padding-left: 800px; */
+  padding-right: 90px;
+  float: right;
+}
+
+.example-compo3 {
+  clear: right;
+  float: left;
+  padding-left: 100px;
+  padding-right: 5%;
+  padding-bottom: 100px;
+  /* float: left; */
+  /*clear: both; */
+}
+
+.example-text1 {
+  /* float: right; */
+  /* padding-left: 50%; */
+  padding-top: 10%;
+  font-size: 50px;
+  padding-right: 10%;
+  /* clear: right; */
+}
+
+.example-text2 {
+  clear: left;
+  padding-top: 15%;
+  font-size: 50px;
+  padding-right: 5%;
+  padding-left: 7%;
+}
+
+.example-text3 {
+  /* float: right; */
+  padding-top: 12%;
+  font-size: 50px;
+  padding-right: 10%;
+  padding-bottom: 280px;
+}
+
+@media screen and (max-width:768px) {
+  .example-compo1 {
+    padding-top: 3%;
+    padding-left: 7%;
+  }
+  .example-text1, .example-text3 {
+    padding-left: 15%;
+    padding-top: 0%;
+    font-size: 50px;
+    padding-bottom: 7%;
+  }
+  .example-text2{
+    padding-left: 15%;
+    padding-top: 0%;
+    font-size: 50px;
+    padding-bottom: 1%;
+  }
+
+  .example-compo2 {
+    padding-top: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* float: right; */
+  }
+
+  .example-compo3 {
+    padding-top: 0%;
+    padding-left: 6%;
+  }
+  .completecompo1, .completecompo2, .completecompo3 {
+    flex-direction: column-reverse;
+  }
+
+}
