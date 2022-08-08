@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Lissenote/static/css/main.921a5ec4.css",
-    "main.js": "/Lissenote/static/js/main.9081e3fc.js",
+    "main.css": "/Lissenote/static/css/main.69f26f40.css",
+    "main.js": "/Lissenote/static/js/main.c0a3953d.js",
     "static/media/temp.png": "/Lissenote/static/media/temp.18c6cbca0ad07f7d5a68.png",
     "index.html": "/Lissenote/index.html",
-    "main.921a5ec4.css.map": "/Lissenote/static/css/main.921a5ec4.css.map",
-    "main.9081e3fc.js.map": "/Lissenote/static/js/main.9081e3fc.js.map"
+    "main.69f26f40.css.map": "/Lissenote/static/css/main.69f26f40.css.map",
+    "main.c0a3953d.js.map": "/Lissenote/static/js/main.c0a3953d.js.map"
   },
   "entrypoints": [
-    "static/css/main.921a5ec4.css",
-    "static/js/main.9081e3fc.js"
+    "static/css/main.69f26f40.css",
+    "static/js/main.c0a3953d.js"
   ]
 }
